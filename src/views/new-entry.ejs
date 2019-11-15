@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include partials/header %>
+    <title>Alta ODS</title>
+</head>
+<body>
+        <% include partials/navigation %>
+    <div class="cointainer p-4">
+        <form method="POST"  action="/new-entry" class="card card-body">
+            <div class="form-group">
+
+                    <label for="id_ods">Numero de Objetivo</label>
+                    <input type="text" class="form-control" name='id_ods' id="id_ods" placeholder="Numero de Objetivo de desarrollo sostenible" autofocus required>
+
+            </div>
+            <div class="form-group">
+
+                    <label for="Titulo">Titulo</label>
+                    <input type="text" class="form-control" name='Titulo' id="Titulo" placeholder="Ingrese titulo de la ODS" autofocus required>
+
+            </div>
+            <div class="form-group">
+
+                    <label for="image">Imagen</label>
+                    <input type="text" class="form-control" name='image' id="image" placeholder="http://website.com" required>
+
+            </div>
+            <input type="submit" value="Salvar ODS" class= "btn btn-primary">
+        </form>
+    
+    </div>
+</body>
+</html>

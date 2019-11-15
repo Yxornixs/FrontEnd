@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include partials/header %>
+    <title>Editar Objetivo</title>
+</head>
+<body>
+        <% include partials/navigation %>
+    <div class="cointainer p-4">
+        <form method="POST"  action="/editar"  class="card card-body">
+            <% Aods.forEach(function (od) { %>
+                <input type="hidden" name="id" value="<%=  %>">
+
+
+            <div class="form-group">
+
+                    <label for="id_ods">Identificador ODS</label>
+                    <input type="text" class="form-control" name='id_ods' id="id_ods" value="<%= od.id_ods %>">
+
+            </div>
+            <div class="form-group">
+
+                    <label for="Titulo">Titulo</label>
+                    <input type="text" class="form-control" name='Titulo' id="Titulo" value="<%= od.Titulo %>" autofocus required>
+
+            </div>
+            <div class="form-group">
+
+                    <label for="image">Imagen</label>
+                    <input type="text" class="form-control" name='image' id="image" value="<%= od.image %>" required>
+
+            </div>
+            <% }) %>
+            <a href="/" class="btn btn-danger">Cancelar</a>
+            <input type="submit" value="Salvar ODS" class= "btn btn-primary">
+        </form>
+    
+    </div>
+</body>
+</html>

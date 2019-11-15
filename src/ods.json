@@ -1,0 +1,52 @@
+[
+  {
+    "id_ods": "1",
+    "Titulo": "Poner fin a la pobreza en todas sus formas en todo el mundo",
+    "image": "https://www.undp.org/content/dam/undp/sdg/tiles/sdg-es-01.png"
+  },
+  {
+    "id_ods": "2",
+    "Titulo": "Poner fin al hambre, lograr la seguridad alimentaria y la mejora de la nutrición y promover la agricultura sostenible",
+    "image": "https://www.undp.org/content/dam/undp/sdg/tiles/sdg-es-02.png"
+  },
+  {
+    "id_ods": "3",
+    "Titulo": "Garantizar una vida sana y promover el bienestar para todos en todas las edades",
+    "image": "https://www.undp.org/content/dam/undp/sdg/tiles/sdg-es-03.png"
+  },
+  {
+    "id_ods": "4",
+    "Titulo": "Garantizar una educación inclusiva, equitativa y de calidad y promover oportunidades de aprendizaje durante toda la vida para todos",
+    "image": "https://www.undp.org/content/dam/undp/sdg/tiles/sdg-es-04.png"
+  },
+  {
+    "id_ods": "5",
+    "Titulo": "Lograr la igualdad entre los géneros y empoderar a todas las mujeres y las niñas",
+    "image": "https://www.undp.org/content/dam/undp/sdg/tiles/sdg-es-05.png"
+  },
+  {
+    "id_ods": "6",
+    "Titulo": "Garantizar la disponibilidad de agua y su gestión sostenible y el saneamiento para todos",
+    "image": "https://www.undp.org/content/dam/undp/sdg/tiles/sdg-es-06.png"
+  },
+  {
+    "id_ods": "7",
+    "Titulo": "Garantizar el acceso a una energía asequible, segura, sostenible y moderna para todos",
+    "image": "https://www.undp.org/content/dam/undp/sdg/tiles/sdg-es-07.png"
+  },
+  {
+    "id_ods": "8",
+    "Titulo": "Promover el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo y el trabajo decente para todos",
+    "image": "https://www.undp.org/content/dam/undp/sdg/tiles/sdg-es-08.png"
+  },
+  {
+    "id_ods": "9",
+    "Titulo": "Industria, innovación e infraestructura",
+    "image": "https://www.undp.org/content/dam/undp/sdg/tiles/sdg-es-09.png"
+  },
+  {
+    "id_ods": "10",
+    "Titulo": "Reducción de las desigualdades",
+    "image": "https://www.undp.org/content/dam/undp/sdg/tiles/sdg-es-10.png"
+  }
+]
